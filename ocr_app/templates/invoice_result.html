@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Extracted Data</title>
+</head>
+<body>
+    <h2>Extracted Data</h2>
+    {{ data | safe }}
+    <br>
+    <a href="{% url 'download_excel' %}">
+        <button>Download as Excel</button>
+    </a>
+</body>
+</html>
